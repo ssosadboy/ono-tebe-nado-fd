@@ -208,10 +208,7 @@
     justify-items: center;
     grid-template-columns: repeat(3,1fr);
 }
-.footer_address{
-    font-size: 18px;
-    line-height: 24.3px;
-}
+
 .footer_menu{
     list-style: none;
     line-height: 21.13px;
@@ -219,9 +216,13 @@
     padding-bottom: 115px;
 }
 .footer_address{
-    width: 264.57px;
+    font-size: 18px;
+    line-height: 1.35;
+    width: 264px;
     height: 98px;
-    left: 50px;
+    font-family: Raleway;
+    font-weight: 400;
+    line-height: 24.3px;
 }
 .footer_menu_list{
     display: flex;
