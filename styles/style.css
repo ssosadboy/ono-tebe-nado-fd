@@ -117,7 +117,6 @@
     width: 334px;
     height: 596px;
     text-decoration: none;
-    height: 100%;
 }
 .card_title{
     font-size: 22px;
@@ -208,7 +207,7 @@
 
 }
 .footer{
-    margin-top: 125px;
+    margin-top: 180px;
     height: 180px;
     display: grid;
     justify-items: center;
@@ -216,22 +215,15 @@
     grid-template-columns: repeat(3,1fr);
 }
 .footer_adress{
-    padding-top: 20px;
-    padding-right: 30px;
+    padding-bottom: 210px;
     font-size: 18px;
-    font-weight: 400;
     line-height: 24.3px;
-   
 }
 .footer_menu {
     list-style: none;
-    width: 163.9px;
-    height: 64px;
-    left: 468.6px;
-    font-size: 18px;
-    font-weight: 400;
     line-height: 21.13px;
     text-align: center;
+    padding-bottom: 250px;
 }
 .footer-adress{
     width: 264.57px;
@@ -252,7 +244,7 @@
     display: flex;
     gap: 43px;
     padding-left: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 131px;
 } 
 .footer_social-list-item {
     list-style: none;
