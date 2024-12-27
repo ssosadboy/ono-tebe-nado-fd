@@ -33,7 +33,7 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 757px;
     z-index: 0;
 }
 .overlay{
@@ -80,26 +80,25 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
+    word-spacing:18px;
 }
 .button{
-    font-weight: 500;
-    width: 256px;
+    margin-left: 90px;
     height: 51px;
-    margin-right: 50px;
-    margin-bottom: 50px;
     background-color: transparent;
     border-color: #fff;
     color: #fff;
+    width: 256px;
 }
 .lots{
-    margin-top: 250px;
+    margin-top: 180px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 .lots_heading{
-    height: 47px;
     font-size: 40px;
-    font-weight: 700;
-    line-height: 46.96px;
-    padding-left: 64px;
+    padding-left: 40px;
+    margin-bottom: 27px;
 }
 .lots_card_list {
     display: flex;
@@ -131,10 +130,9 @@
     position: relative;
     flex-direction: column;
     justify-content: space-between;
-    width: 334px;
     z-index: -1;
     height:100%;
-    padding: 40px;
+    padding: 46px 36px 45px 40px;
 }
 .card_text{
     display: block;
@@ -163,7 +161,7 @@
 .more{ 
     display: block;
     margin-top: 30px;
-    margin-left: 60px;
+    margin-left: 40px;
     font-size: 20px;
     font-weight: 400;
     line-height: 23.48px;
@@ -176,13 +174,7 @@
     height: 595px;
     position: relative;
 }
-.about_column { 
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 46.96px;
-    text-align: left;
-    max-width: 1052px;
-}
+
 .about_logo {
     width: 240px;
     height: 240px;
