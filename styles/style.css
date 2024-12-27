@@ -18,7 +18,7 @@
     width: 148px;
     height:105px;
 }
-.header_adress{
+.adress{
     max-width: 240px;
     justify-self: flex-end;
     font-size: 18px;
@@ -209,7 +209,6 @@
     grid-template-columns: repeat(3,1fr);
 }
 .footer_adress{
-    padding-bottom: 82px;
     font-size: 18px;
     line-height: 24.3px;
 }
@@ -219,7 +218,7 @@
     text-align: center;
     padding-bottom: 115px;
 }
-.footer-adress{
+._adress_{
     width: 264.57px;
     height: 98px;
     left: 50px;
@@ -232,12 +231,9 @@
 .footer_menu_list_item{
     list-style: none;
 }
-
 .footer_social-list{
     display: flex;
     gap: 43px;
-    padding-left: 15px;
-    padding-bottom: 131px;
 } 
 .footer_social-list-item{
     list-style: none;
@@ -245,5 +241,4 @@
 .footer_social-icon{
     width: 48px;
     height: 48px;
-  
 }
