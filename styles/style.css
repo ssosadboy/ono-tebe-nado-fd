@@ -7,7 +7,6 @@
 
 }
 
-
 .header_menu_item {
    display: flex;
    justify-content: space-around;
@@ -162,7 +161,6 @@
 }
 
 .card_title {
-    
     font-size: 22px;
     line-height: 26.4px;
     text-decoration: underline;
@@ -221,7 +219,6 @@
 }
 
 .about {
-   
     position: relative;
     display: grid;
     grid-template-columns:334px 2fr;
