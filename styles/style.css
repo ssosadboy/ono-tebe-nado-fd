@@ -18,7 +18,7 @@
     width: 148px;
     height:105px;
 }
-.adress{
+.header_address{
     max-width: 240px;
     justify-self: flex-end;
     font-size: 18px;
@@ -208,7 +208,7 @@
     justify-items: center;
     grid-template-columns: repeat(3,1fr);
 }
-.footer_adress{
+.footer_address{
     font-size: 18px;
     line-height: 24.3px;
 }
@@ -218,7 +218,7 @@
     text-align: center;
     padding-bottom: 115px;
 }
-._adress_{
+.footer_address{
     width: 264.57px;
     height: 98px;
     left: 50px;
