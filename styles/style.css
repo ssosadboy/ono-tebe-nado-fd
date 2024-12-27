@@ -13,8 +13,16 @@
    align-items: center;
    gap:34px;
    margin-right: 50px;
+   text-decoration: none;
    list-style: circle;
+   list-style: none;
+    
 
+}
+
+.header_menu_item_list {
+    list-style: circle;
+   
 }
 
 .header_logo_image {
@@ -28,6 +36,7 @@
     max-width: 240px;
     margin-left: 19px;
     font-size: 18px;
+    font-style:normal;
     line-height: 1.35;
 
 }
@@ -36,7 +45,8 @@
     position: relative;
     z-index: 0;
     width: 100%;
-    height: 757px;
+    min-height: 757px;
+    padding: 165px 50px 61px 50px;
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -57,22 +67,23 @@
 
 .cover_title {
     color: #fff;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     line-height: 115px;
+    text-transform: uppercase;
 
 }
 
 .aligned_text {
     display: block;
-    padding: 165px 764px 20px 50px;
+    
     letter-spacing: 0.3em;
 
 }
 
 .aligned_text-center {
     display: block;
-    padding:0px 380px ;
+  
     letter-spacing: 0.3em;
     text-align: center;
 
@@ -80,7 +91,7 @@
 
 .aligned_text-right {
     display: block;
-    padding: 20px 50px 110px 663px;
+    
     letter-spacing: 0.3em;
     text-align: right;
 
@@ -88,11 +99,11 @@
 
 .description { 
     display: flex;
-    height: 51px;
-    padding-left: 50px;
+    height: 51px;  
+    padding-top: 155px;
     color: #fff;
     font-size: 22px;
-    word-spacing: 30px;  
+    word-spacing: 30px;
     
 }
 
@@ -107,14 +118,16 @@
 .button {
     width: 256px;
     height: 51px;
-    margin-left: 90px;
+    margin-left: 110px;
     border-color: #fff;
     color: #fff;
+    font-size: 22px;
     background-color: transparent;
 
 }
 
 .lots {
+    min-height: 596px;
     margin-top: 180px;
     padding-right: 24px;
     padding-left: 24px;
@@ -131,29 +144,27 @@
 .lots_card_list {
     display: flex;
     gap:25px;
-    width: 100%;
-    height: 596px;
+    min-height: 596px;
     color: #fff;
-
 }
 
 .lots_card_list_item {
     position: relative;
     z-index: 0;
+    flex-wrap: wrap;
     width:334px;
-    min-height: 596px;
 
 }
 
 .card_link {
     width: 334px;
-    height: 596px;
+    height: 100%;
     text-decoration: none;
 
 }
 
 .card_title {
-    height: 264px;
+    
     font-size: 22px;
     line-height: 26.4px;
     text-decoration: underline;
@@ -162,12 +173,16 @@
 
 .card {
     position: relative;
-    z-index: -1;
+    z-index: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height:100%;
     padding: 46px 36px 45px 40px;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size:cover ;
+
 
 }
 
@@ -181,25 +196,19 @@
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-size:cover ;
+ 
 
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-size:cover ;
+ 
 
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    background-position:center ;
-    background-size:cover ;
+  
 
 }
 
@@ -214,11 +223,11 @@
 }
 
 .about {
+   
     position: relative;
     display: grid;
     grid-template-columns:334px 2fr;
     column-gap: 47px; 
-    height: 595px;
     margin: 120px 0px 0px 0px;
 
 }
@@ -243,12 +252,14 @@
     display: grid;
     grid-template-rows:1fr 1fr;
     align-items: center;
-
+    width: 693px;
 }
 
 .about_title {
-    margin-top: 100px;
-    padding: 3px 0px 0px 0px;
+    gap: 15px;
+    margin-top: 130px;
+    padding: 3px 0px 50px 0px;
+
     font-weight: 700;
     font-size: 40px;
     line-height: 46.96px;
@@ -256,6 +267,7 @@
 }
 
 .about_text {
+    display: block;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -266,8 +278,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
-    height: 180px;
-    margin-top: 180px;
+    margin-top: 150px;
 
 }
 
@@ -281,11 +292,10 @@
 
 .footer_address {
     width: 264px;
-    height: 98px;
     font-weight: 400;
     font-size: 18px;
+    font-style: normal;
     line-height: 1.35;
-
 }
 
 .footer_menu_list {
@@ -302,7 +312,8 @@
 
 .footer_social-list {
     display: flex;
-    gap: 43px;
+    gap: 38px;
+    padding-left: 17px;
 } 
 
 .footer_social-list-item {
