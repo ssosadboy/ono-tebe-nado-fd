@@ -21,8 +21,8 @@
 }
 
 .header_menu_item_list {
-    list-style: circle;
     text-underline-offset: 3px;
+    list-style: circle;
 
 }
 
@@ -64,32 +64,32 @@
 
 .overlay {
     position: absolute;
+    inset:0;
     opacity: 60%;
     background-color: #000;
-    inset:0;
 }
 
 .cover_title {
+    position: relative;
+    z-index: 1;
     color: #fff;
     font-size: 100px;
     line-height: 115px;
-    text-transform: uppercase;
-    position: relative;
-    z-index: 1;
     letter-spacing: 0.3em;
+    text-transform: uppercase;
 
 }
 
 .aligned_text-center {
     display: block;
-    text-align: center;
     margin-top: 20px;
+    text-align: center;
 }
 
 .aligned_text-right {
     display: block;
-    text-align: right;
     margin-top: 20px;
+    text-align: right;
 
 }
 
@@ -97,15 +97,15 @@
     letter-spacing: 0;
 }
 
-.description { 
+.description {
+    position: relative;
+    z-index: 1; 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 106px;
     color: #fff;
     font-size: 22px;
-    position: relative;
-    z-index: 1;
-    justify-content: space-between;
-    align-items: center;
     
 }
 
@@ -113,8 +113,8 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
-    word-spacing:18px;
     text-transform: uppercase;
+    word-spacing:18px;
 
     }
 
@@ -123,11 +123,11 @@
     height: 51px;
     border: 1px solid #fff;
     color: #fff;
-    font-size: 22px;
-    background-color: transparent;
-    text-transform: uppercase;
-    cursor: pointer;
     font-family: Raleway, sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .lots {
@@ -167,11 +167,11 @@
 }
 
 .card_title {
+    z-index: 1;
+    font-weight: 700;
     font-size: 22px;
     line-height: 26.4px;
     text-decoration: underline;
-    z-index: 1;
-    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -187,11 +187,11 @@
 
 }
 
-.card_text {
+.card_text { 
+    z-index: 1;
     display: block;
     font-size: 20px;
-    line-height: 24px; 
-    z-index: 1;
+    line-height: 24px;
 }
 
 .card_type_film {
@@ -218,8 +218,8 @@
     padding-left: 40px;
     font-size: 20px;
     line-height: 23.48px;
-    text-underline-offset: 4px;
     text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
 
 }
 
@@ -233,9 +233,9 @@
 
 .about_logo {
     display: flex;
-    align-items: center;
-    justify-content:center ;
     justify-self: center;
+    justify-content:center ;
+    align-items: center;
     width: 240px;
     height: 240px;
     border-radius: 50%;
@@ -289,7 +289,7 @@
 
 .footer_address {
    margin-right: 30px;
-   
+
 }
 
 
@@ -307,6 +307,7 @@
 }
 .footer_menu_list_item{
     list-style: none;
+    
 }
 
 .footer_social-list {
