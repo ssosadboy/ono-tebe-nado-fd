@@ -2,17 +2,14 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px 96px;   
+    padding: 92px 50px;   
     background-color: #fff;
 
 }
 
 .header_menu_item {
    display: flex;
-   justify-content: space-around;
-   align-items: center;
    gap:34px;
-   margin-right: 31px;
    font-size: 18px;
    line-height: 21.13px;
    
@@ -30,6 +27,7 @@
 
 .link_list-active {
     text-decoration: none;
+    text-underline-offset: 3px;
 
 }
 
@@ -129,11 +127,11 @@
     width: 256px;
     height: 51px;
     margin-left: 110px;
-    border-color: #fff;
     color: #fff;
     font-size: 22px;
     background-color: transparent;
     transform: translateY(-10px);
+    border: 1px solid #fff;
 
 }
 
@@ -279,7 +277,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-
+    gap: 12px;
 }
 
 .footer {
