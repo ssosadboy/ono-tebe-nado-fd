@@ -227,7 +227,7 @@
     display: grid;
     grid-template-columns:334px 2fr;
     gap: 25px; 
-    margin: 153px 0px 180px;
+    margin: 153px 0px 182px;
     padding:0 24px;
 }
 
@@ -276,47 +276,34 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-items: center;
+    padding: 0px 50px 80px 50px;
 }
 
 .footer_menu {
-    padding-bottom: 115px;
+    text-transform: lowercase;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
     text-align: center;
 }
 
-.footer_address {
-   margin-right: 30px;
-
-}
-
-
 .footer_menu_list {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-underline-offset: 3px;
-
+    list-style: none;
 }
 
 .footer__menu-link_active{
     text-decoration: none;
 
 }
-.footer_menu_list_item{
-    list-style: none;
-    
-}
 
 .footer_social-list {
     display: flex;
-    gap: 38px;
-    padding-left: 17px;
-} 
-
-.footer_social-list-item {
+    gap:48px;
+    justify-content: end;
     list-style: none;
 
 } 
