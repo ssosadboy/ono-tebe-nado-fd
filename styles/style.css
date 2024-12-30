@@ -170,7 +170,6 @@
     background-position:center ;
     background-size:cover ;
 }
-
 .card_text { 
     z-index: 1;
     display: block;
@@ -189,7 +188,6 @@
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
 }
-
 .more { 
     display: block;
     margin-top: 32px;
@@ -199,7 +197,6 @@
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
 }
-
 .about {
     display: grid;
     grid-template-columns:334px 2fr;
@@ -207,7 +204,6 @@
     margin: 153px 0px 182px;
     padding:0 24px;
 }
-
 .about_logo {
     display: flex;
     justify-self: center;
