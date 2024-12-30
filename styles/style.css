@@ -4,7 +4,6 @@
     align-items: center;
     padding: 92px 50px;   
     background-color: #fff;
-
 }
 
 .header_menu_item {
@@ -12,29 +11,24 @@
    gap:34px;
    font-size: 18px;
    line-height: 21.13px;
-   
 }
 
 .header_menu_item_list-item_no-bullit {
     list-style: none;
-
 }
 
 .header_menu_item_list {
     text-underline-offset: 3px;
     list-style: circle;
-
 }
 
 .link_list-active {
     text-decoration: none;
-
 }
 
 .header_logo_image {
     width: 148px;
     height:105px;
-
 }
 
 .address {
@@ -43,13 +37,10 @@
     font-style:normal;
     line-height: 1.35;
     text-underline-offset: 3px;
-
-
 }
 
 .header_address {
     justify-self: end;
-
 }
 
 .cover {
@@ -59,7 +50,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .overlay {
@@ -106,7 +96,6 @@
     padding-top: 106px;
     color: #fff;
     font-size: 22px;
-    
 }
 
 .description_text {
@@ -115,8 +104,7 @@
     line-height: 28px;
     text-transform: uppercase;
     word-spacing:18px;
-
-    }
+}
 
 .button {
     width: 256px;
@@ -134,7 +122,6 @@
     margin-top: 180px;
     padding-right: 24px;
     padding-left: 24px;
-
 }
 
 .lots_heading {
@@ -156,14 +143,12 @@
     position: relative;
     width:334px;
     min-height: 596px;
-   
 }
 
 .card_link {
     display: block;
     height: 100%;
     text-decoration: none;
-
 }
 
 .card_title {
@@ -184,7 +169,6 @@
     padding: 48px 40px;
     background-position:center ;
     background-size:cover ;
-
 }
 
 .card_text { 
@@ -196,20 +180,14 @@
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
- 
-
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
- 
-
 }
 
 .card_type_picture {
     background-image: url(../images/card-lot-03.jpg);
-  
-
 }
 
 .more { 
@@ -220,7 +198,6 @@
     line-height: 23.48px;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
-
 }
 
 .about {
@@ -240,13 +217,11 @@
     height: 240px;
     border-radius: 50%;
     background-color:#000;
-
 }
 
 .about_logo_image {
     width: 148px;
     height: 114px;
-
 }
 
 .container {
@@ -271,7 +246,7 @@
 
 .about_text:last-child {
     margin-top: 22px;
-  }
+}
 
 .footer {
     display: grid;
@@ -297,7 +272,6 @@
 
 .footer__menu-link_active{
     text-decoration: none;
-
 }
 
 .footer_social-list {
@@ -305,11 +279,9 @@
     gap:48px;
     justify-content: end;
     list-style: none;
-
 } 
 
 .footer_social-icon {
     width: 48px;
     height: 48px;
-
 }
