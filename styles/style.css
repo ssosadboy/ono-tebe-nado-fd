@@ -34,7 +34,7 @@
 .address {
     max-width: 240px;
     font-size: 18px;
-    font-style:normal;
+    font-style: normal;
     line-height: 1.35;
     text-underline-offset: 3px;
 }
@@ -166,8 +166,8 @@
     justify-content: space-between;
     height:100%;
     padding: 48px 40px;
-    background-position:center ;
-    background-size:cover ;
+    background-position:center;
+    background-size:cover;
 }
 
 .card_text { 
@@ -210,7 +210,7 @@
 .about_logo {
     display: flex;
     justify-self: center;
-    justify-content:center ;
+    justify-content:center;
     align-items: center;
     width: 240px;
     height: 240px;
