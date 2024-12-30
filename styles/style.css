@@ -255,11 +255,11 @@
 }
 
 .footer_menu {
-    text-transform: lowercase;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
     text-align: center;
+    text-transform: lowercase;
 }
 
 .footer_menu_list {
@@ -270,14 +270,14 @@
     list-style: none;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
     text-decoration: none;
 }
 
 .footer_social-list {
     display: flex;
-    gap:48px;
     justify-content: end;
+    gap:48px;
     list-style: none;
 } 
 
